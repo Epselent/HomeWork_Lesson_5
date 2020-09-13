@@ -1,9 +1,9 @@
 package Task1;
 
 public class FactoryLogger {
-    public Logger createLogger(LoggerType typeLogger){
+    public Logger createLogger(LoggerType typeLogger) {
         Logger logger = null;
-        switch (typeLogger){
+        switch (typeLogger) {
             case CONSOLE:
                 logger = new ConsoleLogger();
                 break;
